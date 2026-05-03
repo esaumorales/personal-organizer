@@ -1,0 +1,215 @@
+/* HEADER */
+
+.header_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px ;
+    gap: 10px;
+}
+
+.header_main-botton_container {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+
+}
+
+.header_main-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header_main-botton_btn {
+
+    button {
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        height: 30px;
+        width: 115px;
+        border-style: none;
+        cursor: pointer;
+    }
+}
+
+/* SIDEBAR */
+
+.sidebar_main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.sidebar_main-title {
+    gap: 10px;
+
+    p {
+        font-size: 10px;
+        color: grey;
+        text-transform: uppercase;
+
+    }
+}
+
+.sidebar_main-title-logo-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar_main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+.sidebar_main-nav-title {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 10px;
+}
+
+.sidebar_main-title-btn button {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.sidebar_main-nav-item {
+    list-style: none;
+
+    li {
+        padding: 2px;
+    }
+
+    .active {
+        color: white;
+        background-color: black;
+        width: 100%;
+        border-radius: 5px;
+        padding: 4px 10px;
+    }
+
+    .inactive {
+        padding: 4px 10px;
+    }
+}
+
+.sidebar_main-nav button {
+    border-style: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: start;
+    color: grey;
+    cursor: pointer;
+
+}
+
+.sidebar_main-botton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.sidebar_main-botton-logo p {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.sidebar_main-botton-text span {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebar_main-botton-text p {
+    font-size: 12px;
+    color: grey;
+}
+
+/* GREETING */
+
+.greeting_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    gap: 10px;
+}
+
+.greeting_top-text {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 10px;
+
+}
+
+.greeting_main-text {
+    p {
+        color: grey;
+        font-size: 10px;
+    }
+
+    strong {
+        color: black;
+    }
+
+    b {
+        color: red;
+    }
+}
+
+.greeting_botton {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: rgba(203, 201, 201, 0.319);
+    border-radius: 8px;
+    padding: 3px;
+    width: 160px;
+    height: 35px;
+    border: gray 1px solid;
+    align-items: center;
+    align-self: flex-end; 
+
+    button {
+        border-style: none;
+        background-color: white;
+        width: 100%;
+        text-align: start;
+        color: black;
+        cursor: pointer;
+        text-align: center;
+        font-size: 8px;
+
+    }
+
+    .btn-active {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .btn-inactive {
+        background-color: transparent;
+        color: gray;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
